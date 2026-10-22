@@ -24,9 +24,3 @@ latest_posts:
 <!-- DRAFT placeholder: replace with your own pitch and pillars. -->
 
 **think lab** studies how interfaces shape the way we interpret. AI systems and visualisations both present interpretation as fact. We design and test interfaces that ask people to think instead: *make me think*, rather than *don't make me think*.
-
-The lab works across HCI and media studies, with visualisation for the humanities as the bridge, along three lines:
-
-- **Thinking critically**: [pillar text to come]
-- **Thinking together**: [pillar text to come]
-- **Thinking differently**: [pillar text to come]
