@@ -4,11 +4,6 @@ title: about
 permalink: /
 subtitle: Interfaces of interpretation · University of Amsterdam
 
-profile:
-  align: right
-  image: wordmark.png
-  image_circular: false
-
 selected_papers: true
 social: true
 
