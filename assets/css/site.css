@@ -48,10 +48,10 @@ img { max-width: 100%; }
 /* Page */
 .page { margin-top: 88px; flex: 1 0 auto; }
 .page-title { font-size: var(--s-lead); font-weight: 400; line-height: 1.4; margin-bottom: 48px; }
-.intro p { font-size: var(--s-lead); font-weight: 300; line-height: 1.6; max-width: 30em; }
+.intro p { font-size: var(--s-body); font-weight: 300; line-height: 1.75; max-width: 34em; }
 .intro em { font-style: italic; font-weight: 600; }
 
-.row { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 80px; }
+.row { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 64px; }
 .page-title + .row { margin-top: 0; }
 .row h2 { font-size: var(--s-small); font-weight: 400; color: var(--muted); padding-top: 3px; }
 h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
@@ -88,7 +88,6 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 
 @media (max-width: 640px) {
   .page { margin-top: 56px; }
-  .intro p { font-size: 18px; }
   .row { grid-template-columns: 1fr; gap: 12px; margin-top: 48px; }
   .cards { grid-template-columns: 1fr; }
   .person { flex-direction: column; gap: 16px; }
