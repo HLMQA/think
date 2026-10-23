@@ -1,0 +1,13 @@
+<header class="nav">
+  <a class="nav-home" href="{{ '/' | relative_url }}"><img class="wordmark" src="{{ '/assets/img/wordmark.png' | relative_url }}" alt="think lab"></a>
+  <nav class="nav-links" aria-label="Main">
+    {% assign links = "about:/,people:/people/,projects:/projects/,publications:/publications/,news:/news/" | split: "," %}
+    {% for l in links %}
+      {% assign parts = l | split: ":" %}
+      {% assign href = parts[1] %}
+      {% assign current = false %}
+      {% if href == "/" %}{% if page.url == "/" %}{% assign current = true %}{% endif %}{% elsif page.url contains href %}{% assign current = true %}{% endif %}
+      <a href="{{ href | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
+    {% endfor %}
+  </nav>
+</header>
