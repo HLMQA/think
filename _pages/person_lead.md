@@ -1,1 +1,3 @@
 **Houda Lamqaddam** is Assistant Professor in Cultural Data Analysis at the Department of Media Studies, University of Amsterdam, where she leads think lab. Her research asks how interfaces, from visualisations to AI systems, shape the way people interpret, judge and decide, and how they can be designed to make people think rather than defer. She works between human-computer interaction and the humanities. Houda holds a PhD in Computer Science and Art History from KU Leuven and an MSc in HCI from ENAC. She serves on the steering committee of VIS4DH, as associate editor of the Journal of Visualization and Interaction, and as treasurer of ADHO.
+
+<style>.post .profile { width: 150px; margin: 0 0 1rem 1.5rem; } .post .profile img { box-shadow: none; }</style>
