@@ -8,9 +8,9 @@ nav_order: 7
 
 profiles:
   - align: right
-    image: prof_pic.jpg
+    image: houda.png
     content: person_lead.md
-    image_circular: false
+    image_circular: true
     more_info: >
       <p>University of Amsterdam</p>
 ---
