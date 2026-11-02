@@ -13,9 +13,9 @@
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --bg: #151312; --fg: #eeeae8; --muted: #a89e9a; --rule: #2e2a29; --accent: #e0503f; --wm-filter: none; color-scheme: dark; }
+  :root:not([data-theme="light"]) { --bg: #24211f; --fg: #d8d1cd; --muted: #9b918d; --rule: #3a3533; --accent: #e06a5c; --wm-filter: none; color-scheme: dark; }
 }
-:root[data-theme="dark"] { --bg: #151312; --fg: #eeeae8; --muted: #a89e9a; --rule: #2e2a29; --accent: #e0503f; --wm-filter: none; color-scheme: dark; }
+:root[data-theme="dark"] { --bg: #24211f; --fg: #d8d1cd; --muted: #9b918d; --rule: #3a3533; --accent: #e06a5c; --wm-filter: none; color-scheme: dark; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
