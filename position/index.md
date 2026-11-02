@@ -4,30 +4,29 @@ title: Make me think.
 description: THINK Lab position statement.
 ---
 <article class="statement">
+<header>
 <h1 class="page-title">Make me think.</h1>
+<p class="subtitle"><em>THINK Lab position statement</em></p>
+</header>
 
-<p>In 2000, Steve Krug’s <em>Don’t Make Me Think</em> gave web design its motto: interfaces should be so clear that people never have to stop and puzzle over them. At the time, this was exactly what was needed. A quarter of a century later, we have all but overdelivered on that promise.</p>
+<p>In 2000, Steve Krug wrote <em>Don't Make Me Think</em>, which gave web design a simple yet gripping motto: interfaces should be so clear they never make people <em>think</em>. At the time, web design was at a different stage: conventions were few and far between, and non-technical users were often lost, having to translate their goals into foreign technical lingo. Against that backdrop, 'Don't make me think!' was akin to a fantasy, and served as an unofficial guiding principle for the following decades of web and software design. A quarter of a century later, we have largely overdelivered on this promise.</p>
 
-<p>AI now drafts our messages, summarises what we read, proposes our next task and prefills our answers. Each step is offered as the obvious next click, and the person’s role shifts from deciding to approving. For the first time, a generation can delegate judgement itself, structurally and at scale, in almost every part of daily and professional life.</p>
+<p>Today, AI-assisted decision making has been integrated in nearly all fields of professional and personal digitally mediated interaction. AI-first workflows suggest directions, draft texts, make plans, line up our next movie, summarise and reply to personal messages, and, all the while, offer a relentless succession of unsolicited next steps that users are asked to validate and execute. This transition has brought a sudden cliff in cognitive autonomy, making us the first generation that is able to delegate judgement itself, structurally and at scale, in almost every part of daily and professional life. As comfortable as it is to defer judgement to an automated system, decades of research in neuropsychology also warn us that cognitive skills that go unused tend to shrivel. At the same time, experts, who are trusted to act as safeguards in human-in-the-loop systems, are vulnerable to cognitive biases and influences they are tasked to guard against.</p>
 
-<p>This matters because human thinking is more fragile than we like to believe. Decades of research show that we take mental shortcuts, follow what is suggested to us and stay with what is preset, all while feeling that we reasoned independently. Experts are no exception. When AI speaks first, the “human in the loop” who is meant to safeguard a decision risks becoming a formality. And skills we stop using tend to weaken.</p>
-
-<p>At THINK Lab, we believe intentional thoughtlessness can no longer be a design goal. We study and design interfaces that treat human independent judgement as something worth protecting, along two paths:</p>
-
-<ul>
-  <li><strong><em>Interfaces that let us think</em></strong> leave space and time for people to form their own judgement first, and offer AI support as a follow-up: to verify, to disagree, or to validate.</li>
-  <li><strong><em>Interfaces that make us think</em></strong> deliberately prompt reflection at the moments that matter, through questions, alternatives, counterarguments, or a moment of productive friction before a consequential decision.</li>
-</ul>
-
-<p>Across both paths, three things are at stake:</p>
+<p>The vision of the THINK Lab is that we can no longer responsibly keep intentional mindlessness as a design goal. Instead, we must now turn our efforts to designing interfaces that help users retain cognitive autonomy and independent judgement, both so that we do not lose that ability, and so that we can live fully in our unique individual humanities. Three aspects of thinking motivate our approach:</p>
 
 <ul>
-  <li><strong><em>Independence:</em></strong> forming our own judgement before, or without, the influence of AI.</li>
-  <li><strong><em>Confidence:</em></strong> trusting our own judgement, with humans and AI as partners in doubt rather than final deciders.</li>
-  <li><strong><em>Humanity:</em></strong> thinking not only for efficiency, but as an expression of our agency and free will.</li>
+  <li><strong>Independence:</strong> the ability to form one's own judgement in the quiet intimacy of one's own reflective process, before - or without - the external influence of AI systems.</li>
+  <li><strong>Confidence:</strong> the trust in one's own judgement and perception, with AI systems as possible but not required partners in moments of doubt or verification.</li>
+  <li><strong>Humanity:</strong> the freedom and ability to think, not for the sake of efficiency or systematic accuracy, but because it is a manifestation of our free will, agency and humanity.</li>
 </ul>
 
-<p>“Make me think” is not a call for difficult or inaccessible interfaces. For many people, cognitive offloading is what makes participation possible. The question is which thinking is worth protecting, when, and for whom.</p>
+<p>The next paradigm is designing interfaces that, through thinking, allow us to remain architects of our individual and collective futures. The THINK Lab pursues this by investigating two parallel design paths:</p>
 
-<p>Building the web of “don’t make me think” took decades of collective effort. Building interfaces that keep us thinking will take no less. I invite researchers, designers, students and partners who share this concern to think with us.</p>
+<ul>
+  <li><strong>Interfaces that let us think:</strong> interfaces and interactions that intentionally leave space and time for people to form their own judgement first, before introducing AI suggestions or nudging, and offer AI support only as a possible follow-up.</li>
+  <li><strong>Interfaces that make us think:</strong> interfaces and interactions that intentionally trigger reflection in users. AI input is here intentionally absent, or when present, offers provocations, alternative readings, counterarguments or the evidence to weigh rather than conclusions.</li>
+</ul>
+
+<p>Just as we have spent the last decades creating the web of <em>'don't make me think'</em>, following the <em>'make me think'</em> approach will require equal amounts of collective effort. We invite researchers, designers, students and partners who share this concern to think with us.</p>
 </article>

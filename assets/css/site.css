@@ -97,7 +97,9 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 /* Position statement */
 .intro p.more { margin-top: 16px; font-size: var(--s-small); }
 .statement { max-width: 36em; display: grid; gap: 20px; }
-.statement .page-title { margin-bottom: 12px; }
+.statement .page-title { margin-bottom: 4px; }
+.statement header { margin-bottom: 20px; }
+.statement .subtitle { font-size: var(--s-small); color: var(--muted); }
 .statement p, .statement li { line-height: 1.75; }
 .statement ul { margin: 0; padding-left: 1.25em; display: grid; gap: 12px; }
 .statement li::marker { color: var(--accent); }
