@@ -88,7 +88,17 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 
 @media (max-width: 640px) {
   .page { margin-top: 56px; }
+  .nav-links { width: 100%; justify-content: space-between; gap: 6px 8px; }
   .row { grid-template-columns: 1fr; gap: 12px; margin-top: 48px; }
   .cards { grid-template-columns: 1fr; }
   .person { flex-direction: column; gap: 16px; }
 }
+
+/* Position statement */
+.intro p.more { margin-top: 16px; font-size: var(--s-small); }
+.statement { max-width: 36em; display: grid; gap: 20px; }
+.statement .page-title { margin-bottom: 12px; }
+.statement p, .statement li { line-height: 1.75; }
+.statement ul { margin: 0; padding-left: 1.25em; display: grid; gap: 12px; }
+.statement li::marker { color: var(--accent); }
+.statement strong { font-weight: 600; }
