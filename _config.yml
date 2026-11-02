@@ -4,6 +4,10 @@ url: ""
 baseurl: ""
 lang: en
 
+contact:
+  user: h.lamqaddam
+  domain: uva.nl
+
 collections:
   projects:
     output: true
