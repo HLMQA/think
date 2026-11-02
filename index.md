@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="intro">
-  <p>think lab studies how interfaces shape the way we interpret. AI systems and visualisations both present interpretation as fact. We design interfaces that ask people to <em>think</em> instead.</p>
+  <p>THINK Lab designs interfaces that help users retain cognitive autonomy and independent judgement. We investigate two parallel design paths: interfaces that let us <em>think</em>, and interfaces that make us <em>think</em>.</p>
   <p class="more"><a href="{{ '/position/' | relative_url }}">Read our position statement</a></p>
 </div>
 
