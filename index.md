@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="intro">
-  <p>THINK Lab designs interfaces that help users retain cognitive autonomy and independent judgement. Our vision makes human independent judgement a primary design goal, and asks, for each interaction, how to combat default mindlessness by design, so that, through thinking, we remain architects of our individual and collective futures. We investigate two parallel design paths: interfaces that let us think, and interfaces that make us think.</p>
+  <p>THINK Lab focuses on how interface and interaction design can help users retain cognitive autonomy and independent judgement. Our vision makes human independent judgement a primary design goal, and asks, for each interaction, how to combat mindlessness by design.</p>
   <p class="more"><a href="{{ '/position/' | relative_url }}">Read our position statement</a></p>
 </div>
 
