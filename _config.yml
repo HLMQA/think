@@ -11,4 +11,4 @@ collections:
   news:
     output: false
 
-exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, projects, publications, _projects]  # projects and publications hidden until there is content
