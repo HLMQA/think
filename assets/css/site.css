@@ -104,3 +104,4 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 .statement ul { margin: 0; padding-left: 1.25em; display: grid; gap: 12px; }
 .statement li::marker { color: var(--accent); }
 .statement strong { font-weight: 600; }
+.statement .signature { margin-top: 12px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: var(--s-small); color: var(--muted); }
