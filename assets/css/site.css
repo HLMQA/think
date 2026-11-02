@@ -1,4 +1,4 @@
-/* think lab. One family (Lexend, matching the wordmark). Type scale 13 / 16 / 20, spacing on an 8px rhythm. */
+/* think lab. One family (Lexend). Type scale 13 (labels, dates) / 14 (menu and all text) / 20 (page titles), spacing on an 8px rhythm. */
 :root {
   --bg: #fbfaf9;
   --fg: #1a1716;
@@ -8,7 +8,7 @@
   --wm-filter: none;
   --font: "Lexend", "Helvetica Neue", Arial, sans-serif;
   --s-small: 13px;
-  --s-body: 16px;
+  --s-body: 14px;
   --s-lead: 20px;
   color-scheme: light;
 }
@@ -40,7 +40,7 @@ img { max-width: 100%; }
 /* Header */
 .nav { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; }
 .wordmark { display: block; width: 136px; height: auto; filter: var(--wm-filter); }
-.nav-links { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: var(--s-small); font-weight: 400; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: var(--s-body); font-weight: 400; }
 .nav-links a { color: var(--muted); text-decoration: none; }
 .nav-links a:hover, .nav-links a[aria-current="page"] { color: var(--fg); }
 .nav-links a[aria-current="page"] { font-weight: 600; }
@@ -48,7 +48,7 @@ img { max-width: 100%; }
 /* Page */
 .page { margin-top: 88px; flex: 1 0 auto; }
 .page-title { font-size: var(--s-lead); font-weight: 400; line-height: 1.4; margin-bottom: 48px; }
-.intro p { font-size: var(--s-small); font-weight: 300; line-height: 1.75; max-width: 40em; }
+.intro p { font-size: var(--s-body); font-weight: 300; line-height: 1.75; max-width: 40em; }
 .intro em { font-style: italic; }
 
 .row { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 64px; }
@@ -74,7 +74,7 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 .cards p { font-size: var(--s-small); color: var(--muted); line-height: 1.5; }
 
 /* News */
-.news-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding-block: 4px; font-size: var(--s-small); font-weight: 300; }
+.news-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding-block: 4px; font-size: var(--s-body); font-weight: 300; }
 .news-item time { font-size: var(--s-small); color: var(--muted); padding-top: 0; font-variant-numeric: tabular-nums; }
 .news-list { border-top: 1px solid var(--rule); padding-top: 14px; }
 
@@ -96,7 +96,7 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 
 /* Position statement */
 .intro p.more { margin-top: 16px; font-size: var(--s-small); }
-.statement { max-width: 36em; display: grid; gap: 20px; }
+.statement { max-width: 40em; display: grid; gap: 20px; }
 .statement .page-title { margin-bottom: 4px; }
 .statement header { margin-bottom: 20px; }
 .statement .subtitle { font-size: var(--s-small); color: var(--muted); }
