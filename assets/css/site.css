@@ -48,7 +48,7 @@ img { max-width: 100%; }
 /* Page */
 .page { margin-top: 88px; flex: 1 0 auto; }
 .page-title { font-size: var(--s-lead); font-weight: 400; line-height: 1.4; margin-bottom: 48px; }
-.intro p { font-size: var(--s-body); font-weight: 300; line-height: 1.75; max-width: 34em; }
+.intro p { font-size: var(--s-small); font-weight: 400; line-height: 1.75; max-width: 40em; }
 .intro em { font-style: italic; }
 
 .row { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 64px; }
@@ -74,8 +74,8 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 .cards p { font-size: var(--s-small); color: var(--muted); line-height: 1.5; }
 
 /* News */
-.news-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding-block: 4px; }
-.news-item time { font-size: var(--s-small); color: var(--muted); padding-top: 3px; font-variant-numeric: tabular-nums; }
+.news-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding-block: 4px; font-size: var(--s-small); font-weight: 400; }
+.news-item time { font-size: var(--s-small); color: var(--muted); padding-top: 0; font-variant-numeric: tabular-nums; }
 .news-list { border-top: 1px solid var(--rule); padding-top: 14px; }
 
 /* Publications */
