@@ -11,7 +11,7 @@ layout: default
   <div>
     {% assign items = site.news | sort: "date" | reverse %}
     {% for n in items limit: 3 %}
-      <p class="news-item"><time>{{ n.date | date: "%-d %b %Y" }}</time>{{ n.content | strip_html | strip }}</p>
+      <p class="news-item"><time>{{ n.date | date: "%-d %b %Y" }}</time><span>{{ n.content | remove: '<p>' | remove: '</p>' | strip }}</span></p>
     {% endfor %}
     <p><a class="more" href="{{ '/news/' | relative_url }}">All news</a></p>
   </div>
