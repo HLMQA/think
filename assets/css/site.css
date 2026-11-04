@@ -88,7 +88,7 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 
 @media (max-width: 640px) {
   .page { margin-top: 56px; }
-  .nav-links { width: 100%; justify-content: space-between; gap: 6px 8px; }
+  .nav-links { gap: 6px 16px; }
   .row { grid-template-columns: 1fr; gap: 12px; margin-top: 48px; }
   .cards { grid-template-columns: 1fr; }
   .person { flex-direction: column; gap: 16px; }
