@@ -76,7 +76,7 @@ h3 { font-size: var(--s-body); font-weight: 600; line-height: 1.4; }
 /* News */
 .news-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding-block: 4px; font-size: var(--s-body); font-weight: 300; }
 .news-item time { font-size: var(--s-small); color: var(--muted); padding-top: 0; font-variant-numeric: tabular-nums; }
-.news-list { border-top: 1px solid var(--rule); padding-top: 14px; }
+.news-list { margin-top: -8px; }
 
 /* Publications */
 .pubs { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--rule); }
