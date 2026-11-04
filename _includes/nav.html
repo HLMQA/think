@@ -1,7 +1,7 @@
 <header class="nav">
   <a class="nav-home" href="{{ '/' | relative_url }}"><img class="wordmark" src="{{ '/assets/img/wordmark.png' | relative_url }}" alt="think lab"></a>
   <nav class="nav-links" aria-label="Main">
-    {% assign links = "about:/,position:/position/,people:/people/,news:/news/" | split: "," %}
+    {% assign links = "about:/,position:/position/,news:/news/" | split: "," %}
     {% for l in links %}
       {% assign parts = l | split: ":" %}
       {% assign href = parts[1] %}
