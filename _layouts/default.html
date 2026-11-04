@@ -17,16 +17,7 @@
   </main>
   <footer class="footer">
     <span>think lab · Department of Media Studies, University of Amsterdam</span>
-    <span class="contact">Contact: <a class="email" data-u="{{ site.contact.user | split: '' | reverse | join: '' }}" data-d="{{ site.contact.domain | split: '' | reverse | join: '' }}">{{ site.contact.user }} [at] {{ site.contact.domain | replace: '.', ' [dot] ' }}</a></span>
+    <span class="contact"><a href="{{ site.contact.profile }}">Contact</a></span>
   </footer>
-  <script>
-    // Assemble the address in the browser so it never appears whole in the page source.
-    document.querySelectorAll("a.email").forEach(function (a) {
-      var rev = function (s) { return s.split("").reverse().join(""); };
-      var addr = rev(a.dataset.u) + "\u0040" + rev(a.dataset.d);
-      a.textContent = addr;
-      a.href = "mail" + "to:" + addr;
-    });
-  </script>
 </body>
 </html>

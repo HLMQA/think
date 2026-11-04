@@ -5,8 +5,7 @@ baseurl: ""
 lang: en
 
 contact:
-  user: h.lamqaddam
-  domain: uva.nl
+  profile: https://www.uva.nl/en/profile/l/a/h.lamqaddam/h.lamqaddam.html
 
 collections:
   projects:
