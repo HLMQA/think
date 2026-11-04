@@ -1,7 +1,7 @@
 title: think lab
 description: think lab studies interfaces of interpretation, how AI and visualisation shape the way we think.
-url: ""
-baseurl: ""
+url: "https://hlmqa.github.io"
+baseurl: "/think"
 lang: en
 
 contact:
