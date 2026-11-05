@@ -29,5 +29,5 @@ description: THINK Lab position statement.
 </ul>
 
 <p>Just as we have spent the last decades creating the web of <em>'don't make me think'</em>, following the <em>'make me think'</em> approach will require equal amounts of collective effort. We invite researchers, designers, students and partners who share this concern to think with us.</p>
-<p class="signature">Houda Lamqaddam, 4 November 2026</p>
+<p class="signature">Houda Lamqaddam, 2 November 2026</p>
 </article>
